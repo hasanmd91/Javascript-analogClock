@@ -4,7 +4,6 @@
   }
   
   body {
-    background: linear-gradient(to right, hsl(81, 87%, 44%), hsl(175, 100%, 50%));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,6 +18,7 @@
     border-radius: 50%;
     border: 2px solid black;
     position: relative;
+    box-shadow:0px 20px 20px rgba(0, 0, 0, 0.2),0px 0px 50px rgba(0, 0, 0, 0.2);
   }
   
   .clock .number {
@@ -85,4 +85,10 @@
     width: 10px;
     height: 35%;
     background-color: black;
+  }
+
+  .container{
+    display: flex;  
+    flex-direction: column;
+    text-align: center;
   }
